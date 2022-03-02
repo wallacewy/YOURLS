@@ -10,7 +10,7 @@ jobs:
     name: Docker image
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v3
         with:
           repository: YOURLS/docker
           ref: main
@@ -34,7 +34,7 @@ jobs:
     name: Helm charts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v3
         with:
           repository: YOURLS/charts
           ref: main
